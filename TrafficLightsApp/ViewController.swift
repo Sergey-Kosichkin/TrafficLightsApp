@@ -23,14 +23,12 @@ class ViewController: UIViewController {
         redSignalView.alpha = darkColor
         yellowSignalView.alpha = darkColor
         greenSignalView.alpha = darkColor
-        
-        
     }
+    
     override func viewWillLayoutSubviews() {
         redSignalView.layer.cornerRadius = redSignalView.frame.size.height * 0.5
         yellowSignalView.layer.cornerRadius = redSignalView.layer.cornerRadius
         greenSignalView.layer.cornerRadius = redSignalView.layer.cornerRadius
-        
     }
     
     
@@ -47,9 +45,6 @@ class ViewController: UIViewController {
                     greenSignalView.alpha == brightColor {
             redSignalView.alpha = brightColor
             greenSignalView.alpha = darkColor
-            
         }
-        
     }
-    
 }
