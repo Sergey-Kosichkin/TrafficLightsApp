@@ -52,6 +52,9 @@
                                 <state key="normal" title="MAGIC">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="magicButtonPressed" destination="BYZ-38-t0r" eventType="touchUpInside" id="W1N-jU-D8a"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>

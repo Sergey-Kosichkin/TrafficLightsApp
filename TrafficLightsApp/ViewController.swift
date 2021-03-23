@@ -49,4 +49,14 @@ class ViewController: UIViewController {
             greenSignalView.alpha = darkColor
         }
     }
+    
+    @IBAction func magicButtonPressed() {
+        
+        
+        
+        
+    }
+    
+    
+    
 }
