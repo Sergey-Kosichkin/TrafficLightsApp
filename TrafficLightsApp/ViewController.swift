@@ -16,10 +16,12 @@ class ViewController: UIViewController {
     @IBOutlet var yellowSignalView: UIView!
     @IBOutlet var greenSignalView: UIView!
     @IBOutlet var startButton: UIButton!
+    @IBOutlet var magicButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         startButton.layer.cornerRadius = 10
+        magicButton.layer.cornerRadius = 10
         redSignalView.alpha = darkColor
         yellowSignalView.alpha = darkColor
         greenSignalView.alpha = darkColor
