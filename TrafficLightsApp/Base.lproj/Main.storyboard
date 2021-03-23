@@ -21,15 +21,11 @@
                                 <color key="backgroundColor" systemColor="systemRedColor"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="aqG-ru-Hl6" secondAttribute="height" multiplier="1:1" id="1VS-Ub-zBl"/>
-                                    <constraint firstAttribute="width" secondItem="aqG-ru-Hl6" secondAttribute="height" multiplier="1:1" id="Ad3-n5-HNi"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="c0k-2r-O3F">
                                 <rect key="frame" x="109.5" y="278.5" width="195" height="195"/>
                                 <color key="backgroundColor" systemColor="systemYellowColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="c0k-2r-O3F" secondAttribute="height" multiplier="1:1" id="H1N-GK-mIc"/>
-                                </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XIU-1i-gQ4">
                                 <rect key="frame" x="20" y="768" width="374" height="54"/>
@@ -45,9 +41,6 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Aya-vO-nkb">
                                 <rect key="frame" x="109.5" y="493.5" width="195" height="194.5"/>
                                 <color key="backgroundColor" systemColor="systemGreenColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="Aya-vO-nkb" secondAttribute="height" multiplier="1:1" id="u3y-9L-1V8"/>
-                                </constraints>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
